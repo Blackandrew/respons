@@ -20,12 +20,14 @@
   </head>
 
   <body>
-   
+   <i class="icon-menu burger-button" id="burger-menu"></i>
+  
     <header class="header">
       <div class="container">
         <figure class="logo">
           <img src="images/logo.png" height="50" alt="Logo de http://leonidasesteban.com" />
         </figure>
+        <!-- is-active -->
         <nav class="menu">
           <ol>
             <li>
@@ -174,7 +176,9 @@
           <a href="https://facebook.com/leonidas.esteban" class="social-link facebook" target="_blank"></a>
           <a href="https://github.com/leonidasesteban" class="social-link github" target="_blank"></a>
           <a href="https://instagram.com/leonidasesteban" class="social-link instagram" target="_blank"></a>
+
         </div>
+       
 
       </div>
     </section> 
@@ -196,5 +200,33 @@
         
       </div>
     </footer> 
+    <script>
+ 
+   console.log();
+    const ipad= window.matchMedia('screen and (max-width: 767px)');
+    const menu= document.querySelector('.menu');
+    console.log(menu);
+  /*selector burger buttom*/
+    const burgerbutton=document.querySelector('#burger-menu');
+    console.log(burgerbutton);
+     
+     burgerbutton.addEventListener('click',hideShow)
+
+     ipad.addListener(validation)
+
+      function validation(event){
+        console.log(event);
+      }
+      
+      function hideShow(){
+        if(menu.classList.contains('is-active')){
+          menu.classList.remove('is-active');
+        }else{
+          menu.classList.add('is-active');
+        }
+       
+      }
+   </script>
+
   </body>
 </html>

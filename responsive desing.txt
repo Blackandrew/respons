@@ -42,4 +42,19 @@ En esta clase conocerás cómo funciona su estructura, cómo se construye y adiquir
 CSS positions
 En tu proyecto, al probarlo en distintos dispositivos, te darás cuenta de que no solamente sus elementos y contenidos deben tener la propiedad de cambiar sus tamaños y condiciones para hacerse elementos de una buena visualización; sino que, además, hay unos ciertos contenidos que permanecen constantemente en el espacio de visualización, a pesar de que tu usuario realice scroll en la página.
 
-Estos elementos te darán cuenta de uno, entre los varios tipos, de posiciones que permite CSS. Por esta razón, durante esta clase conocerás cuáles son las distintas posiciones (estática, relativa, absoluta, fixed y sticky) sobre las que podrás trabajar, aplicándolas a tu proyecto. Material de trabajo de esta clase: 
+Estos elementos te darán cuenta de uno, entre los varios tipos,
+ de posiciones que permite CSS. Por esta razón,
+ durante esta clase conocerás cuáles son las distintas posiciones 
+(estática, relativa, absoluta, fixed y sticky) sobre las que podrás trabajar, aplicándolas a tu proyecto. Material de trabajo de esta clase: 
+
+
+-----------------------------
+Para calcular la proporción de nuestro vídeo:
+height * 100 / width
+-----------------------------------------
+Añadiendo un menú de hamburguesa
+En esta clase convertirás el ícono que has elegido según las fuentes de íconos y le destinarás una función, es decir, 
+le adjudicarás un “call to action” o llamado a la acción. Así, tu usuario sabrá cómo relacionar el ícono a la función que necesita realizar. En conclusión, 
+durante la clase, Leonidas te enseñará diversas técnicas para desarrollar tu menú de hamburguesa o menú desplegable de múltiples opciones, 
+en la página web que estas desarrollando, en estas formas trabajarás sobre las medidas, los colores, el background color, el borde, el display y, algo fundamental,
+ las posiciones de css que ya aprendiste en la clase correspondiente a este tema
