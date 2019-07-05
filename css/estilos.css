@@ -140,6 +140,8 @@ h2 {
   border-bottom-right-radius: 10px; */
   /* margin: 10px; */
   margin-bottom: 15px;
+  /* margin-right:40px;
+  margin-left:15px; */
   /* margin-right
   margin-left 
   margin-top */
@@ -306,12 +308,12 @@ figure {
   height: 150px;
   display: flex;
   align-items: center;
+  margin-left: 5%;
   justify-content: space-between;
   flex-wrap: wrap;
 }
 
-.social {
-}
+
 
 .social-link {
   display: inline-block;
@@ -622,7 +624,33 @@ figure {
   .hero-image{
     height: 150px;
   }
- 
+
+  .social {
+  margin-left: -35px;
+  }
+ .form-email{
+  margin-left: -40px;
+ }
+ .footer{
+  margin-left: 15px;
+ }
+
+ .footer p{
+  margin-left: -20px;
+ }
+
+ .event-list{
+  margin-right: -15px;
+ }
+ .portfolio{
+  margin-left: -15px;
+ }
+ .header{
+  margin-right: -12px;
+ }
+ .hero{
+  margin-right: -12px;
+ }
 }
 
 
