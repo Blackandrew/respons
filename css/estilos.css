@@ -27,6 +27,16 @@ valores */
 /* gris claro = #626262 */
 /* background gris = #1b2127 */
 /* celeste = #026fff */
+
+.pru{
+  border: 2px solid blue;
+  width: 500px;
+   text-align: center;
+   margin-left: 220px;
+
+
+}
+
 @font-face {
   font-family: 'icomoon';
   src:  url('../fonts/icomoon.eot?xejfau');
@@ -273,7 +283,7 @@ figure {
   width: 48%;
   flex-shrink: 0;
   border-radius: 10px;
- overflow: hidden; 
+  overflow: hidden; 
   background: #f4fbff;
  
 }
@@ -323,7 +333,7 @@ figure {
   background-size: 50px 50px;
 }
 
-.social-link.twitter {
+.twitter {
   background-image: url('../images/twitter.svg');
 }
 .social-link.facebook {
@@ -608,13 +618,19 @@ figure {
   .hero-image{
     height: 200px;
   }
+
+  body{
+    /* border: 5px solid blue; */
+    /* margin-left: 26px; */
+  }
+ 
 }
 
 
 @media screen and (max-width: 320px){
   h1{
     font-size: 1.2em;
-   text-align: center;
+    text-align: center;
   }
 
   .hero{
@@ -651,6 +667,13 @@ figure {
  .hero{
   margin-right: -12px;
  }
+ 
+ body{
+   margin-right: -25px;
+  
+   
+ }
+  
 }
 
 

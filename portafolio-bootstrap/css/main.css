@@ -1,0 +1,272 @@
+#About{
+    font-family: 'Playfair Display', serif;
+}
+.project-description{
+    font-family: 'Playfair Display', serif;
+}
+
+.navbar1{
+    /* efecto de sombra */
+    box-shadow: 2px 2px 5px black;
+    opacity: .9;
+   
+} 
+/* .navbar{
+    background-color:#1b2127;
+} */
+
+.Portafolio img{
+  margin-top: 15px;
+
+}
+.navbar1 .nav-item  .nav-link{
+    color: white;
+   
+}
+
+.Portafolio{
+    padding-top: 70px;
+    background-color:#1b2127;
+}
+/* 
+.navbar{
+    background-color:#1b2127;
+} */
+
+.project-description{
+    font-size: 20px;
+}
+
+#project {
+   border: 1px solid black;
+   border-radius: 20px;
+   
+}
+
+figure {
+    margin: 0;
+  }
+
+  
+.flexible-video{
+    margin-left: 30px;
+     padding-top:0%;
+     position: relative;
+     
+}
+.imagen{
+    margin-right: 25px;
+}
+.main-even{
+      background-color: aliceblue;
+      width: 350px;
+     
+  }
+   .event img {
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+    margin-left: -20px;
+    width: 550px;
+    height: 230px; 
+    object-fit: cover;
+   
+  }
+   
+  .hijo{
+      padding-left: 20px;
+  }
+.event-detail {
+   
+    margin-left: 50px;
+    margin-top: -60px;
+    background-color: white;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+    width: 400px;
+  
+  }
+
+  
+.event-url {
+    color: #056fff;
+    border: 1px solid;
+    padding: 5px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+  .event-description {
+    text-align: left;
+  }
+
+  /* .eventos{
+      margin-bottom: 50px;
+  }
+
+   */
+  .flexible-video iframe{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+
+.social{
+    display: flex;
+    justify-content: center;
+    margin-top: 360px;
+}
+
+.Face{
+    display:inline-block;
+	width:100px;
+	height:60px;
+	text-align:center;
+	font-size:14px;
+	border:1px solid #007095;
+	border-radius:5px;
+	cursor:pointer;
+ 
+    background-image: url(../images/facebook.svg);
+	background-repeat:no-repeat;
+	
+    background-size:50px;
+	background-position:25px;	
+	background-color:#056fff;
+	
+}
+.twitter{
+    display:inline-block;
+	width:100px;
+	height:60px;
+	text-align:center;
+	font-size:14px;
+	border:1px solid #007095;
+	border-radius:5px;
+	cursor:pointer;
+ 
+    background-image: url(../images/twitter.svg);
+	background-repeat:no-repeat;
+	
+    background-size:50px;
+	background-position:25px;	
+	background-color:#056fff;
+  	
+} 
+
+.git{
+    display:inline-block;
+	width:100px;
+	height:60px;
+	text-align:center;
+	font-size:14px;
+	border:1px solid #007095;
+	border-radius:5px;
+	cursor:pointer;
+ 
+    background-image: url(../images/github.svg);
+	background-repeat:no-repeat;
+	
+    background-size:50px;
+	background-position:25px;	
+	background-color:#056fff;
+  	
+} 
+
+footer{
+    background-color: #353b48;
+}
+.contact{
+    background-color:#f5f6fa ;
+}
+
+h1 strong {
+    color: #056fff
+}
+
+#About{
+    color: #056fff
+}
+
+@media screen and (max-width: 767px){
+  
+
+.social{
+   
+  margin-top: 20px;
+  
+ }
+
+ .hijo{
+    padding-left: 0px;
+}
+} 
+
+@media screen and (max-width:575px){
+    
+       body{
+        padding-left: 10px;
+        padding-right: 10px;
+        
+    } 
+ 
+    .hijo{
+        padding-left: 10px;
+        padding-right: 10px;
+        
+      } 
+      .Portafolio{
+        margin-left: -10px;
+        margin-right: -10px;
+        margin-top: -5px;
+        padding-bottom: 20px;
+        padding-top: 80px;
+       
+      }
+      .event img {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+   
+}
+
+
+ @media screen and (max-width:380px){ 
+
+    #About{
+     margin-left: 80px;
+    }
+    .Portafolio{
+        width: 560px;
+    }
+    #project{
+        width: 500px;
+        margin-left: 20px;
+    }
+    .event img {
+     width: 500px;
+     margin-left: -5px;
+    }
+    
+    .social{
+        margin-left: 150px;
+    }
+   
+    .enviar{
+        border: 2px solid black;
+        width: 450px;
+        margin-left: 30px;
+    }
+    .social{
+      
+        margin-left: 85px;
+        width: 350px;
+       
+    }
+
+    footer{
+        
+        width: 550px;
+        margin-top: 10px;
+    }
+} 
